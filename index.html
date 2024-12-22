@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      @font-face {
+        font-family: "Futura";
+        src: url("fonts/futura/Futura-Medium.woff2") format("woff2"),
+          url("fonts/futura/Futura-Medium.woff") format("woff");
+        font-weight: 500;
+        font-style: normal;
+      }
+
+      @font-face {
+        font-family: "Futura";
+        src: url("fonts/futura/Futura-Bold.woff2") format("woff2"),
+          url("fonts/futura/Futura-Bold.woff") format("woff");
+        font-weight: 700;
+        font-style: normal;
+      }
+
+      @font-face {
+        font-family: "Futura";
+        src: url("fonts/futura/Futura-Light.woff2") format("woff2"),
+          url("fonts/futura/Futura-Light.woff") format("woff");
+        font-weight: 300;
+        font-style: normal;
+      }
+
+      * {
+        font-family: "Futura", sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="h-screen w-screen flex items-center justify-center">
+      <div class="grid grid-cols-2">
+        <div class="flex flex-col items-center justify-center">
+          <div class="flex flex-col items-start gap-2 justify-center">
+            <p class="text-5xl font-bold">Love for bud.</p>
+            <span class="text-sm font-light"> Coming Soon</span>
+          </div>
+        </div>
+        <img src="bot1.jpg" alt="logo" class="w-1/2" />
+      </div>
+    </div>
+  </body>
+</html>
